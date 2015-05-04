@@ -34,7 +34,6 @@
     <Compile Include="routes\index.js" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Microsoft.NodejsTools.WebRole.dll" />
     <Content Include="public\javascripts\bootstrap.js" />
     <Content Include="public\javascripts\bootstrap.min.js" />
     <Content Include="public\javascripts\jquery-1.10.2.intellisense.js" />
