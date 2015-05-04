@@ -16,6 +16,7 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
+    <Content Include="bin\Microsoft.NodejsTools.WebRole.dll" />
     <Content Include="favicon.ico" />
     <Content Include="package.json" />
     <Compile Include="server.js" />
@@ -71,6 +72,7 @@
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="bin\" />
     <Folder Include="public" />
     <Folder Include="public\css" />
     <Folder Include="public\font-awesome" />
